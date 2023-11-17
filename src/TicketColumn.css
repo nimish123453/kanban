@@ -1,0 +1,29 @@
+.ticket-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-y: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-column h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .ticket-column::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .ticket-column::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 4px;
+  }
+  
+  .ticket-column::-webkit-scrollbar-track {
+    background-color: #f8f8f8;
+  }
+   

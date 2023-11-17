@@ -1,0 +1,44 @@
+.ticket-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .ticket-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .ticket-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  .ticket-card p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .ticket-card.priority-0 {
+    border-color: #ddd;
+  }
+  
+  .ticket-card.priority-1 {
+    border-color: #6ab04c;
+  }
+  
+  .ticket-card.priority-2 {
+    border-color: #f8b400;
+  }
+  
+  .ticket-card.priority-3 {
+    border-color: #e44d26;
+  }
+  
+  .ticket-card.priority-4 {
+    border-color: #d93025;
+  }
+  
